@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityRide Motors | Premium Car Dealership</title>
+    <meta
+      name="description"
+      content="CityRide Motors offers premium new and certified used cars with financing, trade-ins, and excellent service."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">CR</span>
+          <span>CityRide Motors</span>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#inventory">Inventory</a>
+          <a href="#why-us">Why choose us</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-primary" href="#contact">Book a test drive</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Trusted since 2010</p>
+            <h1>Drive home your dream car with confidence.</h1>
+            <p class="lead">
+              Discover premium vehicles, flexible financing, and a buying experience built around your needs.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#inventory">Browse inventory</a>
+              <a class="button button-secondary" href="#why-us">Learn more</a>
+            </div>
+            <ul class="mini-trust">
+              <li>4.8/5 customer rating</li>
+              <li>15-day exchange promise</li>
+              <li>Certified technicians</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Car dealership showcase">
+            <div class="badge badge-top">New arrivals</div>
+            <div class="car-card-highlight">
+              <img
+                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80"
+                alt="Luxury sports car"
+              />
+              <div class="highlight-info">
+                <span>2025 BMW M4</span>
+                <strong>$62,500</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div class="stat-box">
+            <strong>450+</strong>
+            <span>Vehicles sold</span>
+          </div>
+          <div class="stat-box">
+            <strong>12 mo</strong>
+            <span>Warranty coverage</span>
+          </div>
+          <div class="stat-box">
+            <strong>98%</strong>
+            <span>Repeat buyers</span>
+          </div>
+          <div class="stat-box">
+            <strong>24/7</strong>
+            <span>Support team</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="inventory" class="inventory section">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Featured inventory</p>
+            <h2>Handpicked cars for every lifestyle</h2>
+          </div>
+
+          <div class="filter-bar" aria-label="Vehicle categories">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="sedan">Sedan</button>
+            <button class="filter-btn" data-filter="suv">SUV</button>
+            <button class="filter-btn" data-filter="sport">Sport</button>
+            <button class="filter-btn" data-filter="electric">Electric</button>
+          </div>
+
+          <div class="inventory-grid">
+            <article class="car-card" data-category="sedan">
+              <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80" alt="Mercedes-Benz C-Class" />
+              <div class="card-body">
+                <div class="card-topline">
+                  <span class="tag">New</span>
+                  <span class="price">$39,800</span>
+                </div>
+                <h3>Mercedes-Benz C-Class</h3>
+                <p>2.0L Turbo • Automatic • 4 doors</p>
+                <div class="meta">
+                  <span>Luxury</span>
+                  <span>Hybrid-ready</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card" data-category="suv">
+              <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=900&q=80" alt="BMW X5" />
+              <div class="card-body">
+                <div class="card-topline">
+                  <span class="tag">Certified</span>
+                  <span class="price">$54,200</span>
+                </div>
+                <h3>BMW X5</h3>
+                <p>3.0L TwinPower • AWD • Premium interior</p>
+                <div class="meta">
+                  <span>Family</span>
+                  <span>AWD</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card" data-category="sport">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Audi RS5 Coupe" />
+              <div class="card-body">
+                <div class="card-topline">
+                  <span class="tag">Hot deal</span>
+                  <span class="price">$67,900</span>
+                </div>
+                <h3>Audi RS5 Coupe</h3>
+                <p>2.9L V6 • Quattro • Sport package</p>
+                <div class="meta">
+                  <span>Performance</span>
+                  <span>Launch control</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card" data-category="electric">
+              <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80" alt="Tesla Model 3" />
+              <div class="card-body">
+                <div class="card-topline">
+                  <span class="tag">EV</span>
+                  <span class="price">$42,000</span>
+                </div>
+                <h3>Tesla Model 3</h3>
+                <p>Long Range • Dual Motor • Fast charge</p>
+                <div class="meta">
+                  <span>Electric</span>
+                  <span>AutoPilot</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-us" class="services section alt-bg">
+        <div class="container">
+          <div class="section-header left-aligned">
+            <p class="eyebrow">Why drivers choose us</p>
+            <h2>Simple, transparent, and stress-free buying.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <div class="feature">
+              <div class="icon">01</div>
+              <h3>Flexible financing</h3>
+              <p>Low-rate plans with approval support and tailored payment options for every budget.</p>
+            </div>
+            <div class="feature">
+              <div class="icon">02</div>
+              <h3>Trade-in assistance</h3>
+              <p>Get a fair value for your current vehicle and apply it instantly toward your next purchase.</p>
+            </div>
+            <div class="feature">
+              <div class="icon">03</div>
+              <h3>Certified quality</h3>
+              <p>Every vehicle is inspected, reconditioned, and backed by trusted warranties.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews section">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Client feedback</p>
+            <h2>Real stories from real drivers</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote class="testimonial">
+              “The team made the process effortless. I found my SUV, got financing fast, and drove away the same day.”
+              <footer>— Melissa R.</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              “Great vehicle selection and no hidden fees. The sales advisors were honest and very knowledgeable.”
+              <footer>— James T.</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              “From browsing to delivery, everything felt smooth and transparent. Highly recommended.”
+              <footer>— Priya S.</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">CR</span>
+            <span>CityRide Motors</span>
+          </div>
+          <p>Helping drivers find the right vehicle for work, family, and adventure.</p>
+        </div>
+
+        <div class="contact-box">
+          <h3>Visit us</h3>
+          <p>245 Horizon Avenue, Midtown</p>
+          <p>(555) 218-7400</p>
+          <p>sales@cityridemotors.com</p>
+        </div>
+
+        <form class="contact-form">
+          <h3>Book a test drive</h3>
+          <input type="text" placeholder="Your name" aria-label="Your name" />
+          <input type="email" placeholder="Email address" aria-label="Email address" />
+          <button type="submit" class="button button-primary">Request callback</button>
+        </form>
+      </div>
+      <div class="container bottom-bar">
+        <span>© <span id="year"></span> CityRide Motors</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
